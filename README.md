@@ -8,11 +8,12 @@ Thank you!
 ## Overview  
 I have recreated the famous Minesweeper game with two modes and two difficuties:  
 
-Modes:  
+**Modes**:   
 1. Normal - Normal Minesweeper Game: Goal is to uncover all safe cells (cells without bombs).   
 2. Flags - Guess the bomb locations: After the user guesses all the bombs (shown in top left), the game will check if the guesses (flags) are correct.   
 In the flags mode, the user can guess the bomb at any time in the game.   
 
+**Difficulty**:  
 1. Easy (9x9 with 10 bombs)  
 ![](images/easy.JPG)
 2. Hard (16x16 with 40 Bombs)  
