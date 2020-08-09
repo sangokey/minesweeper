@@ -31,20 +31,20 @@ The game ends when, either a mine is uncovered (loss) or all cells are revealed 
 First click cannot be a mine. If first click is a mine, game is restarted.  
 
 ## Algorithm Description
-1. Normal Mode:  
+1. **Normal Mode**:  
 Every time an user makes a move (not a mine), this program loops through the board to check for winning conditions.  
 The winning condition is: when there are no empty spaces left and no flags in empty positions.  
 The loop through the board takes O(m\*n) time.  
 The number of maximum moves a user can take is m\*n times because there are maximum m\*n possible cells.  
-Therefore, the complexity of the algorithm that verifies the solution is O(m<sup>2</sup>n<sup>2</sup>).  
+Therefore, the complexity of the algorithm that verifies the solution is **O(m<sup>2</sup>n<sup>2</sup>)**.  
 
-2. Flags Mode:  
+2. **Flags Mode**:  
 When there are no remaining guesses left (10 for easy, 40 for hard), the program will loop through the board (mxn) to find all the flags (guesses): m\*n.  
 For each flag location, all adjacent cells are found (8): 8\*m\*n.  
 For each adjacent cells, the number of adjacent cells (max 8) with bombs and the number of adjacent cells with flags (guesses) are found: 8\*8\*m\*n.
 If the number of bombs and the number of flags do not match, user loses the game.  
 Otherwise, guesses are correct and user wins.    
-The algorithm complexity is O(m\*n).  
+The algorithm complexity is **O(m\*n)**.  
 
 
 ## Game Instructions  
