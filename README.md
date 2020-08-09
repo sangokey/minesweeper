@@ -27,7 +27,7 @@ We use the --user flag to tell it to install into the home directory, rather tha
 	
 
 After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):
-1. py minesweeper.py
-2. python3 minesweeper.py	
+	py minesweeper.py
+	python3 minesweeper.py	
 	
 
