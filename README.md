@@ -19,8 +19,8 @@ First click cannot be a mine. If first click is a mine, game is restarted.
 ## Algorithm Description
 Every time an user makes a move (not a mine), this program loops through the board to check for winning conditions.  
 The winning condition is: when there are no empty spaces left and no flags in empty positions.  
-The loop through the board takes O(m*n) time.  
-The number of maximum moves a user can take is m*n times because there are maximum m*n possible cells.  
+The loop through the board takes O(m\*n) time.  
+The number of maximum moves a user can take is m\*n times because there are maximum m\*n possible cells.  
 Therefore, the complexity of the algorithm that verifies the solution is O(m<sup>2</sup>n<sup>2</sup>).  
 
 ## Program Instructions  
