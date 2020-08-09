@@ -1,9 +1,5 @@
 # Minesweeper by Sang Ok Suh
 
-**To CS325 TA**  
-This python program does not run in the flip sever due to the pygame module.  
-It'll be greatly appreciated if you can run this on another machine that can run pygame.  
-Thank you!  
 
 ## Contents  
 I have provided one file and one image folder:  
