@@ -5,6 +5,32 @@ This python program does not run in the flip sever due to the pygame module.
 It'll be greatly appreciated if you can run this on another machine that can run pygame.  
 Thank you!  
 
+## Contents  
+I have provided one file and one image folder:  
+
+1. minesweeper.py  
+2. images  
+
+Both files have to be in the same folder to run the pygame successfully.  
+
+## Program Instructions  
+To run the game in the terminal, you need to install **pygame** if you don't have it installed.  
+
+**From the pygame.org website:**    
+The best way to install pygame is with the pip tool (which is what python uses to install packages).   
+Note, this comes with python in recent versions.   
+We use the --user flag to tell it to install into the home directory, rather than globally.  
+
+	python3 -m pip install -U pygame --user  
+	
+
+After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):  
+	
+	py minesweeper.py  
+	
+	python3 minesweeper.py  
+
+
 ## Overview  
 I have recreated the famous Minesweeper game with two modes and two difficuties:  
 
@@ -56,27 +82,3 @@ If the number of bombs and the number of flags do not match, user loses the game
 Otherwise, guesses are correct and user wins.    
 The algorithm complexity is **O(m\*n)**.  
 
-## Contents  
-I have provided one file and one image folder:  
-
-1. minesweeper.py  
-2. images  
-
-Both files have to be in the same folder to run the pygame successfully.  
-
-## Program Instructions  
-To run the game in the terminal, you need to install **pygame** if you don't have it installed.  
-
-**From the pygame.org website:**    
-The best way to install pygame is with the pip tool (which is what python uses to install packages).   
-Note, this comes with python in recent versions.   
-We use the --user flag to tell it to install into the home directory, rather than globally.  
-
-	python3 -m pip install -U pygame --user  
-	
-
-After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):  
-	
-	py minesweeper.py  
-	
-	python3 minesweeper.py  
