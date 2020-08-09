@@ -1,7 +1,9 @@
 # Minesweeper Game by Sang Ok Suh
 
 ## Overview  
-I have recreated the famous Minesweeper game with two difficuties: Easy (9x9 with 10 bombs) and Hard (16x16 with 40 Bombs).  
+I have recreated the famous Minesweeper game with two difficuties:  
+1. Easy (9x9 with 10 bombs)  
+2. Hard (16x16 with 40 Bombs)  
 
 ## Contents  
 I have provided one file and one image folder:  
