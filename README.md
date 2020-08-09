@@ -15,8 +15,8 @@ I have provided one file and one image folder:
 
 Both files have to be in the same folder to run the pygame successfully.  
 
-## Instructions  
-To run the game in the terminal, you need to install pygame if you don't have it installed.  
+## Program Instructions  
+To run the game in the terminal, you need to install **pygame** if you don't have it installed.  
 
 **From the pygame.org website:**    
 The best way to install pygame is with the pip tool (which is what python uses to install packages).   
@@ -25,5 +25,9 @@ We use the --user flag to tell it to install into the home directory, rather tha
 
 	python3 -m pip install -U pygame --user  
 	
+
+After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):
+1. py minesweeper.py
+2. python3 minesweeper.py	
 	
 
