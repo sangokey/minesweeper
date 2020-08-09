@@ -26,8 +26,10 @@ We use the --user flag to tell it to install into the home directory, rather tha
 	python3 -m pip install -U pygame --user  
 	
 
-After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):
-	py minesweeper.py
+After intalling pygame, you can open the game in the terminal using the following scripts (depends on your python):  
+	
+	py minesweeper.py  
+	
 	python3 minesweeper.py	
 	
 
