@@ -16,7 +16,7 @@ Both files have to be in the same folder to run the pygame successfully.
 ## Instructions  
 To run the game in the terminal, you need to install pygame if you don't have it installed.  
 
-**From the pygame.org website:  **
+**From the pygame.org website:  
 The best way to install pygame is with the pip tool (which is what python uses to install packages).   
 Note, this comes with python in recent versions.   
 We use the --user flag to tell it to install into the home directory, rather than globally.  
