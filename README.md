@@ -47,11 +47,4 @@ After intalling pygame, you can open the game in the terminal using the followin
 	
 	py minesweeper.py  
 	
-	python3 minesweeper.py	
-
-
-**To CS325 TA**  
-The python program doesn't open in the flip sever due to pygame.  
-It'll be greatly appreciated if you can open on another machine.  
-Thank you.  
-
+	python3 minesweeper.py  
