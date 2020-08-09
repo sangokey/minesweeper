@@ -18,8 +18,8 @@ First click cannot be a mine. If first click is a mine, game is restarted.
 
 ## Program Instructions  
 1. From the main page, click on a difficulty level.  
-2. Top left corner shows the the number of bombs left to find.  
-3. Top right corner shows the time counter.  
+2. Top left shows the the number of bombs left to find.  
+3. Top right shows the time counter.  
 4. The middle shows the status of the game: thumbs up for on-going game, thumbs down for lose, crown for win.
 5. You can click the middle icon to restart the game within the same difficulty.  
 6. You can navigate to the main menu (to choose another difficulty) or quit the game using the buttons on the bottom.  
