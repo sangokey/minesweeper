@@ -16,7 +16,15 @@ If a cell does not contain a mine, and it is not next to a mine, a blank cell is
 The game ends when, either a mine is uncovered (loss) or all cells are revealed that do not contain a mine (win).  
 First click cannot be a mine. If first click is a mine, game is restarted.  
 
+## Algorithm Description
+Every time an user makes a move (not a mine), this program loops through the board to check for winning conditions.  
+The winning condition is: when there are no empty spaces left and no flags in empty positions.  
+The loop through the board takes O(m*n) time.  
+The number of maximum moves a user can take is m*n times because there are maximum m*n possible cells.  
+Therefore, the complexity of the algorithm that verifies the solution is O(m<sup>2</sup>n<sup>2</sup>).  
+
 ## Program Instructions  
+1. You cannot 
 1. From the main page, click on a difficulty level.  
 2. Top left shows the the number of bombs left to find.  
 3. Top right shows the time counter.  
