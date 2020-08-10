@@ -58,7 +58,7 @@ Therefore, the complexity of the algorithm that verifies the solution is **O(m<s
 2. **Flags Mode**:  
 When there are no remaining guesses left (10 for easy, 40 for hard), the program will loop through the board (mxn) to find all the flags (guesses): m\*n.  
 For each flag location, all adjacent cells are found (8): 8\*m\*n.  
-For each adjacent cells, the number of adjacent cells (max 8) with bombs and the number of adjacent cells with flags (guesses) are found: 8\*8\*m\*n.
+For each adjacent cells, the number of adjacent cells (max 8) with bombs and the number of adjacent cells with flags (guesses) are found: 8\*8\*m\*n.  
 If the number of bombs and the number of flags do not match, user loses the game.  
 Otherwise, guesses are correct and user wins.    
 The algorithm complexity is **O(m\*n)**.  
