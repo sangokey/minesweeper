@@ -15,9 +15,12 @@ Both files have to be in the same folder to run the pygame successfully.
 I have recreated the famous Minesweeper game with two modes and two difficuties:  
 
 **Modes**:   
-1. **Normal** - Normal Minesweeper Game: Goal is to uncover all safe cells (cells without bombs).   
-2. **Flags** - Guess the bomb locations: After the user guesses all the bombs (shown in top left), the game will check if the guesses (flags) are correct.   
-*In the flags mode, the user can guess the bomb at any time in the game.*   
+1. **Normal**  
+Rules: Normal Minesweeper game where goal is to uncover all safe cells (without mines).  
+
+2. **Flags**
+*In the flags mode, the user can guess the Mine at any time in the game.*   
+Rules: Guess all the bomb locations using flags. Once all flags are used, game checks if user loses or wins.  
 
 **Difficulty**:  
 1. **Easy** (9x9 with 10 bombs)  
@@ -38,13 +41,11 @@ First click cannot be a mine. If first click is a mine, game is restarted.
 
 
 ## Game Instructions  
-1. First click cannot be a mine, if it is then the game restarts automatically.
-2. From the main page, click on a difficulty level.  
-3. Top left shows the the number of bombs left to find.  
-4. Top right shows the time counter.  
-5. The middle shows the status of the game: thumbs up for on-going game, thumbs down for lose, crown for win.
-6. You can click the middle icon to restart the game within the same difficulty.  
-7. You can navigate to the main menu (to choose another difficulty) or quit the game using the buttons on the bottom.  
+1. Left Click Reveals the Chosen Cell (Mine or Number of Adjacent Mine Cells).  
+2. Right Click to place a flag in the suspected Mine cell.  
+3. Top Left Number shows the number of available flags. Initial flag number = # of Mines.  
+4. Middle Icon (Thumbs Up for On-Going, Thumbs Down for Lose, Crown for Win) - resets the current game if clicked.  
+5. Right Top Number is a timer in seconds.  
 
 ## Algorithm Description
 1. **Normal Mode**:  
